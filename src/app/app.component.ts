@@ -2,8 +2,18 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
-import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
+import { Ufrn } from '../pages/UFRN/ufrn';
+import { Ccsa } from '../pages/CCSA/ccsa';
+import { Main } from '../pages/Main/main';
+import { Cursos } from '../pages/Cursos/cursos';
+import { CoordDepar } from '../pages/CoordDepar/coorddepar';
+import { VcParticipa } from '../pages/VcParticipa/vcparticipa';
+import { ConecteSe } from '../pages/ConecteSe/conectese';
+import { Mapa } from '../pages/Mapa/mapa';
+import { ComoChegar } from '../pages/ComoChegar/como-chegar';
+import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
+import { ParaSaber } from '../pages/ParaSaber/para-saber';
+import { ParaFazer } from '../pages/ParaFazer/para-fazer';
 
 
 @Component({
@@ -12,7 +22,7 @@ import { Page2 } from '../pages/page2/page2';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = Page1;
+  rootPage: any = ParaFazer;
 
   pages: Array<{title: string, component: any}>;
 
@@ -21,8 +31,18 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Page One', component: Page1 },
-      { title: 'Page Two', component: Page2 }
+      { title: 'Inicial', component: Main},
+      { title: 'UFRN', component: Ufrn},
+      { title: 'CCSA', component: Ccsa},
+      { title: 'Cursos', component: Cursos},
+      { title: 'Coordenação e Departamento', component: CoordDepar},
+      { title: 'Você Participa!', component: VcParticipa},
+      { title: 'Contecte-se!', component: ConecteSe},
+      { title: 'O que tem no CCSA?', component: Mapa},
+      { title: 'Como Chegar?', component: ComoChegar},
+      { title: 'Para Conhecer', component: ParaConhecer},
+      { title: 'Para Você Saber!', component: ParaSaber},
+      { title: 'Coisas Para Fazer', component: ParaFazer}
     ];
 
   }

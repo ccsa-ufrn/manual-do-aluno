@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cursos do CCSA</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <button color="secondary" ion-button full *ngFor="let c of courses" (click)="openModal(c)">
+    {{c.title}}
+  </button>
+
+</ion-content>

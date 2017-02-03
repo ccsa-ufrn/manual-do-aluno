@@ -24,14 +24,14 @@ $font-path: "../assets/fonts";
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #387ef5,
-  secondary:  #32db64,
-  danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  primary:    #FF9EA9,
+  secondary:  #E58E98,
+  danger:     #7F2933,
+  light:      #FFB7C0,
+  dark:       #B25D66
 );
 
-
+$toolbar-md-background: #FF9EA9;
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here

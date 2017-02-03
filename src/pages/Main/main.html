@@ -1,0 +1,84 @@
+<style>
+
+</style>
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Manual do Aluno</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-grid>
+    <ion-row>
+      <ion-col width-50>
+        <ion-card (click)='goToPage("ufrn")'>
+          <img src="assets/image/ufrn.png">
+          <div class="card-title">UFRN</div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card (click)='goToPage("ccsa")'>
+          <img src="assets/image/ccsa-main.png">
+          <div class="card-title">CCSA</div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-100>
+        <ion-card (click)='goToPage("cursos")' style="margin-top:0px;">
+          <img src="assets/image/cursos-c.png">
+          <div class="card-title"></div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-50>
+        <ion-card (click)='goToPage("coord-depar")'>
+          <img src="assets/image/generic.png">
+          <div class="card-title tiny">COORDENAÇÃO E DEPARTAMENTO</div>
+          <div class="card-subtitle">Para que servem?</div>
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card (click)='goToPage("vc-participa")'>
+          <img src="assets/image/vc-participa.png">
+          <div class="card-title"></div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-100>
+        <ion-card (click)='goToPage("conecte-se")'>
+          <img src="assets/image/conecte-se.png">
+          <div class="card-title tiny"></div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-100>
+        <ion-card (click)='goToPage("mapa")'>
+          <img src="assets/image/map-explore.png">
+          <div class="card-title tiny"></div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-50>
+        <ion-card (click)='goToPage("como-chegar")'>
+          <img src="assets/image/map-marker.png">
+          <div class="card-title tiny"></div>
+          <div class="card-subtitle"></div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
