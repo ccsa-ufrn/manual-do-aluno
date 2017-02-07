@@ -9,6 +9,9 @@ import { VcParticipa } from '../VcParticipa/vcparticipa';
 import { ConecteSe } from '../ConecteSe/conectese';
 import { Mapa } from '../Mapa/mapa';
 import { ComoChegar } from '../ComoChegar/como-chegar';
+import { ParaConhecer } from '../ParaConhecer/para-conhecer';
+import { ParaSaber } from '../ParaSaber/para-saber';
+import { ParaFazer } from '../ParaFazer/para-fazer';
 
 @Component({
   selector: 'main',
@@ -45,6 +48,15 @@ export class Main {
         break;
       case "como-chegar":
         this.navCtrl.setRoot(ComoChegar);
+        break;
+      case "para-conhecer":
+        this.navCtrl.setRoot(ParaConhecer);
+        break;
+      case "para-voce-saber":
+        this.navCtrl.setRoot(ParaSaber);
+        break;
+      case "coisas-para-fazer":
+        this.navCtrl.setRoot(ParaFazer);
         break;
     }
   }

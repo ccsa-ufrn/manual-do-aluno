@@ -22,7 +22,7 @@ import { ParaFazer } from '../pages/ParaFazer/para-fazer';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ParaFazer;
+  rootPage: any = Main;
 
   pages: Array<{title: string, component: any}>;
 
