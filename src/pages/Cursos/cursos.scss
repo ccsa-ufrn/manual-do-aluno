@@ -30,4 +30,19 @@ cursos {
     background-color: #FF9EA9;
   }
 
+  .modal-bt {
+    margin: 0 6px;
+    padding: 0 2px;
+    min-width: 44px;
+    border: 0;
+    display: flex;
+    float: left;
+    vertical-align: top;
+    box-shadow: none;
+  }
+
+  .modal-ti {
+    margin-top: 5px;
+  }
+
 }

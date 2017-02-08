@@ -72,7 +72,7 @@ export class Cursos {
 }
 
 @Component({
-  template: '<ion-header><ion-navbar><button ion-button (click)="dismiss()" menuToggle><ion-icon name="arrow-back"></ion-icon></button><ion-title>{{title}}</ion-title></ion-navbar></ion-header><ion-content style="text-align: justify;" padding>{{description}}</ion-content>',
+  template: '<ion-header><ion-navbar><button ion-button (click)="dismiss()" class="modal-bt"><ion-icon name="arrow-back"></ion-icon></button><ion-title class="modal-ti">{{title}}</ion-title></ion-navbar></ion-header><ion-content style="text-align: justify;" padding>{{description}}</ion-content>',
   selector: 'cursos'
 }) export class CourseModal {
   title: string;

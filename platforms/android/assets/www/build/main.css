@@ -22227,6 +22227,11 @@ sub {
   text-indent: 40px;
 }
 
+como-chegar .onibus, como-chegar .carro {
+  background: #00ADEF;
+  color: white;
+}
+
 cursos .card-background-page ion-card {
   position: relative;
   text-align: center;
@@ -22295,5 +22300,31 @@ mapa ion-item {
 mapa .map {
   width: 1366px;
   height: 768px;
-  background: url("../assets/image/teste.png") no-repeat;
+  background: url("../assets/image/map.png") no-repeat;
+}
+
+para-conhecer .ru h3, para-conhecer .ru h5, para-conhecer .sisbi h3, para-conhecer .sisbi h5 {
+  color: #3B8476;
+}
+
+para-conhecer .centro-convivencia {
+  background: #3C8476;
+  color: white;
+}
+
+para-saber .purple {
+  background: #694187;
+  color: white;
+}
+
+para-saber .purple h4 {
+  color: white;
+}
+
+para-saber .purple a {
+  color: white;
+}
+
+para-saber h4 {
+  color: #694187;
 }
