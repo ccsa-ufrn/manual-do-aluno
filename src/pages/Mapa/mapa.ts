@@ -3,6 +3,8 @@ import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
 
+import { Main } from '../Main/main';
+
 @Component({
   selector: 'mapa',
   templateUrl: 'mapa.html'
@@ -10,7 +12,11 @@ import { NavController } from 'ionic-angular';
 export class Mapa {
 
   constructor(public navCtrl: NavController) {
-    
+
+  }
+
+  public goToMain() {
+      this.navCtrl.setRoot(Main);
   }
 
 }

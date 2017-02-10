@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
+import { Main } from '../Main/main';
 
 @Component({
   selector: 'ufrn',
@@ -12,4 +13,7 @@ export class Ufrn {
 
   }
 
+  public goToMain() {
+      this.navCtrl.setRoot(Main);
+  }
 }

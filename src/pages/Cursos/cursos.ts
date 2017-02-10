@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 
 import { ModalController, NavParams, NavController, ViewController } from 'ionic-angular';
 
+import { Main } from '../Main/main';
+
 @Component({
   selector: 'cursos',
   templateUrl: 'cursos.html'
@@ -69,6 +71,10 @@ export class Cursos {
     let modal = this.modCtrl.create(CourseModal, { title: c.title, description: c.description });
     modal.present();
   }
+
+  public goToMain() {
+      this.navCtrl.setRoot(Main);
+  }
 }
 
 @Component({
@@ -87,4 +93,5 @@ export class Cursos {
     let data = {'foo':'bar'};
     this.viewCtrl.dismiss(data);
   }
+
 }
