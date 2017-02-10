@@ -22258,6 +22258,23 @@ cursos .toolbar-background-md {
   background-color: #FF9EA9;
 }
 
+cursos .modal-bt {
+  margin: 0 6px;
+  padding: 0 2px;
+  min-width: 44px;
+  border: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  vertical-align: top;
+  box-shadow: none;
+}
+
+cursos .modal-ti {
+  margin-top: 5px;
+}
+
 main ion-col, main ion-grid, main ion-card {
   padding: 0px;
 }
