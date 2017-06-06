@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
+import { Cursos } from '../Cursos/cursos';
+import { CoordDepar } from '../CoordDepar/coorddepar';
 
 import { Main } from '../Main/main';
 
@@ -16,6 +18,14 @@ export class Ccsa {
 
   public goToMain() {
       this.navCtrl.setRoot(Main);
+  }
+
+  public goToCourses() {
+      this.navCtrl.setRoot(Cursos);
+  }
+
+  public goToCoordDepar() {
+      this.navCtrl.setRoot(CoordDepar);
   }
 
 }

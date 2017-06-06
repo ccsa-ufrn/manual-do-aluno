@@ -22346,9 +22346,16 @@ para-saber h4 {
   color: #694187;
 }
 
+ufrn .timeline {
+  color: white;
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
 ufrn .timeline ul {
   background: #456990;
-  padding: 50px 0;
+  padding: 0px 5px;
+  padding-bottom: 15px;
 }
 
 ufrn .timeline ul li {
@@ -22376,7 +22383,7 @@ ufrn .timeline ul li::after {
 ufrn .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 400px;
+  width: 15em;
   padding: 15px;
   background: #F45B69;
 }
@@ -22401,13 +22408,13 @@ ufrn .timeline ul li:nth-child(odd) div::before {
 }
 
 ufrn .timeline ul li:nth-child(even) div {
-  left: -439px;
+  left: 45px;
 }
 
 ufrn .timeline ul li:nth-child(even) div::before {
-  right: -15px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
 }
 
 ufrn time {

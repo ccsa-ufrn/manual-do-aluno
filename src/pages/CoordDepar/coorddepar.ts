@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
 
-import { Main } from '../Main/main';
+import { Ccsa } from '../CCSA/ccsa';
 
 @Component({
   selector: 'coord-depar',
@@ -15,7 +15,7 @@ export class CoordDepar {
   }
 
   public goToMain() {
-      this.navCtrl.setRoot(Main);
+      this.navCtrl.setRoot(Ccsa);
   }
 
 }

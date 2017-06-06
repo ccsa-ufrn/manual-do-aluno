@@ -22232,6 +22232,10 @@ como-chegar .onibus, como-chegar .carro {
   color: white;
 }
 
+coord-depar table td, coord-depar table th {
+  padding: 5px;
+}
+
 cursos .card-background-page ion-card {
   position: relative;
   text-align: center;
