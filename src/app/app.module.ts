@@ -15,6 +15,14 @@ import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
 import { ParaSaber } from '../pages/ParaSaber/para-saber';
 import { ParaFazer } from '../pages/ParaFazer/para-fazer';
 
+import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
+
+const cloudSettings: CloudSettings = {
+  'core': {
+    'app_id': '30782dea'
+  }
+};
+
 @NgModule({
   declarations: [
     MyApp,
@@ -33,7 +41,8 @@ import { ParaFazer } from '../pages/ParaFazer/para-fazer';
     ParaFazer
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    CloudModule.forRoot(cloudSettings)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
