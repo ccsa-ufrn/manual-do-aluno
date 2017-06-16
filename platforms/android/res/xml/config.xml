@@ -19,6 +19,17 @@
         <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="GoogleMaps">
+        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+        <param name="onload" value="true" />
+        <param name="onreset" value="true" />
+    </feature>
+    <feature name="External">
+        <param name="android-package" value="plugin.google.maps.External" />
+    </feature>
+    <feature name="Geocoder">
+        <param name="android-package" value="plugin.google.maps.MyGeocoder" />
+    </feature>
     <name>Manual CCSA</name>
     <description />
     <author email="hi@ionicframework" href="http://ionicframework.com/">Assessoria Técnica CCSA</author>

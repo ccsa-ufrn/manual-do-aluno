@@ -15,6 +15,8 @@ import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
 import { ParaSaber } from '../pages/ParaSaber/para-saber';
 import { ParaFazer } from '../pages/ParaFazer/para-fazer';
 
+import { GoogleMaps } from '@ionic-native/google-maps';
+
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
 const cloudSettings: CloudSettings = {
@@ -61,6 +63,6 @@ const cloudSettings: CloudSettings = {
     ParaSaber,
     ParaFazer
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, GoogleMaps]
 })
 export class AppModule {}
