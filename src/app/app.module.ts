@@ -7,6 +7,7 @@ import { Main } from '../pages/Main/main';
 import { Cursos } from '../pages/Cursos/cursos';
 import { CourseModal } from '../pages/Cursos/cursos';
 import { CoordDepar } from '../pages/CoordDepar/coorddepar';
+import { PosGrad } from '../pages/PosGrad/posgrad';
 import { VcParticipa } from '../pages/VcParticipa/vcparticipa';
 import { ConecteSe } from '../pages/ConecteSe/conectese';
 import { Mapa } from '../pages/Mapa/mapa';
@@ -15,7 +16,8 @@ import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
 import { ParaSaber } from '../pages/ParaSaber/para-saber';
 import { ParaFazer } from '../pages/ParaFazer/para-fazer';
 
-import { GoogleMaps } from '@ionic-native/google-maps';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { Network } from '@ionic-native/network';
 
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
@@ -34,6 +36,7 @@ const cloudSettings: CloudSettings = {
     Cursos,
     CourseModal,
     CoordDepar,
+    PosGrad,
     VcParticipa,
     ConecteSe,
     Mapa,
@@ -55,6 +58,7 @@ const cloudSettings: CloudSettings = {
     Cursos,
     CourseModal,
     CoordDepar,
+    PosGrad,
     VcParticipa,
     ConecteSe,
     Mapa,
@@ -63,6 +67,6 @@ const cloudSettings: CloudSettings = {
     ParaSaber,
     ParaFazer
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, GoogleMaps]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, InAppBrowser, Network]
 })
 export class AppModule {}

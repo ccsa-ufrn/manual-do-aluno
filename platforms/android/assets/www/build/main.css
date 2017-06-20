@@ -22313,23 +22313,15 @@ main .toolbar-background-md {
   background-color: #F45B69;
 }
 
-mapa {
-  /*.map {
-    width: 1366px;
-    height: 768px;
-    background: url('../assets/image/map.png') no-repeat;
-  }*/
-}
-
 mapa ion-item {
   width: 100%;
   height: 100%;
 }
 
-mapa #map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
+mapa .map {
+  width: 1366px;
+  height: 768px;
+  background: url("../assets/image/map.png") no-repeat;
 }
 
 para-conhecer .ru h3, para-conhecer .ru h5, para-conhecer .sisbi h3, para-conhecer .sisbi h5 {

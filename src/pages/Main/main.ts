@@ -13,13 +13,16 @@ import { ParaConhecer } from '../ParaConhecer/para-conhecer';
 import { ParaSaber } from '../ParaSaber/para-saber';
 import { ParaFazer } from '../ParaFazer/para-fazer';
 
+import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { Network } from '@ionic-native/network';
+
 @Component({
   selector: 'main',
   templateUrl: 'main.html'
 })
 export class Main {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, private iab: InAppBrowser, private network: Network) {
 
   }
 
@@ -44,7 +47,7 @@ export class Main {
         this.navCtrl.setRoot(ConecteSe);
         break;
       case "mapa":
-        this.navCtrl.setRoot(Mapa);
+        this.goToMap();
         break;
       case "como-chegar":
         this.navCtrl.setRoot(ComoChegar);
@@ -59,6 +62,15 @@ export class Main {
         this.navCtrl.setRoot(ParaFazer);
         break;
     }
+  }
+
+  public goToMap() {
+    if (this.network.type == 'none' ) {
+      this.navCtrl.setRoot(Mapa);
+    } else {
+      this.iab.create('https://ccsa.ufrn.br/', "_system", "location=yes");
+    }
+
   }
 
 }

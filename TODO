@@ -2,3 +2,5 @@
 - Instalar Google Maps cordova plugin
   https://github.com/mapsplugin/cordova-plugin-googlemaps
   https://ionicframework.com/docs/native/google-maps/
+
+cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyCx4oEYEKwXcsl0EwzqfBegLoXk33nRZR0" --variable API_KEY_FOR_IOS="AIzaSyCx4oEYEKwXcsl0EwzqfBegLoXk33nRZR0"

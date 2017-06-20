@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.sidemenuionic968296" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<?xml version="3.1" encoding="UTF-8" standalone="yes"?>
+<widget id="br.ufrn.ccsa.manual" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Manual CCSA</name>
   <description/>
   <author email="hi@ionicframework" href="http://ionicframework.com/">Assessoria Técnica CCSA</author>

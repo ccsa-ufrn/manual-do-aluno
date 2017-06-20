@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Cursos } from '../Cursos/cursos';
 import { CoordDepar } from '../CoordDepar/coorddepar';
+import { PosGrad } from '../PosGrad/posgrad';
 
 import { Main } from '../Main/main';
 
@@ -26,6 +27,10 @@ export class Ccsa {
 
   public goToCoordDepar() {
       this.navCtrl.setRoot(CoordDepar);
+  }
+
+  public goToPosGrad() {
+      this.navCtrl.setRoot(PosGrad);
   }
 
 }
