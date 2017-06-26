@@ -12,9 +12,8 @@ import { VcParticipa } from '../pages/VcParticipa/vcparticipa';
 import { ConecteSe } from '../pages/ConecteSe/conectese';
 import { Mapa } from '../pages/Mapa/mapa';
 import { ComoChegar } from '../pages/ComoChegar/como-chegar';
-import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
 import { ParaSaber } from '../pages/ParaSaber/para-saber';
-import { ParaFazer } from '../pages/ParaFazer/para-fazer';
+import { ParaAjudar } from '../pages/ParaAjudar/para-ajudar';
 
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { Network } from '@ionic-native/network';
@@ -41,9 +40,8 @@ const cloudSettings: CloudSettings = {
     ConecteSe,
     Mapa,
     ComoChegar,
-    ParaConhecer,
     ParaSaber,
-    ParaFazer
+    ParaAjudar
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -63,9 +61,8 @@ const cloudSettings: CloudSettings = {
     ConecteSe,
     Mapa,
     ComoChegar,
-    ParaConhecer,
     ParaSaber,
-    ParaFazer
+    ParaAjudar
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, InAppBrowser, Network]
 })

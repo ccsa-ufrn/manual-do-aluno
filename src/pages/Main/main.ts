@@ -11,7 +11,7 @@ import { Mapa } from '../Mapa/mapa';
 import { ComoChegar } from '../ComoChegar/como-chegar';
 import { ParaConhecer } from '../ParaConhecer/para-conhecer';
 import { ParaSaber } from '../ParaSaber/para-saber';
-import { ParaFazer } from '../ParaFazer/para-fazer';
+import { ParaAjudar } from '../ParaAjudar/para-ajudar';
 
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { Network } from '@ionic-native/network';
@@ -52,14 +52,11 @@ export class Main {
       case "como-chegar":
         this.navCtrl.setRoot(ComoChegar);
         break;
-      case "para-conhecer":
-        this.navCtrl.setRoot(ParaConhecer);
-        break;
       case "para-voce-saber":
         this.navCtrl.setRoot(ParaSaber);
         break;
-      case "coisas-para-fazer":
-        this.navCtrl.setRoot(ParaFazer);
+      case "para-ajudar":
+        this.navCtrl.setRoot(ParaAjudar);
         break;
     }
   }
@@ -68,7 +65,7 @@ export class Main {
     if (this.network.type == 'none' ) {
       this.navCtrl.setRoot(Mapa);
     } else {
-      this.iab.create('https://ccsa.ufrn.br/', "_system", "location=yes");
+      this.iab.create('https://ccsa.ufrn.br/map.html', "_system", "location=yes");
     }
 
   }

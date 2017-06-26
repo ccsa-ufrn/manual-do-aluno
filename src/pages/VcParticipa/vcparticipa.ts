@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
 import { Main } from '../Main/main';
 
 @Component({
-  selector: 'vc-participa',
+  selector: 'vcparticipa',
   templateUrl: 'vcparticipa.html'
 })
 export class VcParticipa {
