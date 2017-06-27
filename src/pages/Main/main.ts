@@ -9,7 +9,6 @@ import { VcParticipa } from '../VcParticipa/vcparticipa';
 import { ConecteSe } from '../ConecteSe/conectese';
 import { Mapa } from '../Mapa/mapa';
 import { ComoChegar } from '../ComoChegar/como-chegar';
-import { ParaConhecer } from '../ParaConhecer/para-conhecer';
 import { ParaSaber } from '../ParaSaber/para-saber';
 import { ParaAjudar } from '../ParaAjudar/para-ajudar';
 
