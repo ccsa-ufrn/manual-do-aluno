@@ -1,6 +1,8 @@
 {
   "name": "Manual do Aluno - CCSA/UFRN",
   "app_id": "30782dea",
-  "v2": true,
-  "typescript": true
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
 }
