@@ -1,0 +1,35 @@
+para-conhecer {
+  .green {
+    h4 {
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    background: #009933;
+    color: white;
+  }
+  h4 {
+    color: #694187;
+  }
+  table {
+    width: 750px;
+    border-collapse: collapse;
+    margin:50px auto;
+    }
+/* Zebra striping */
+    tr:nth-of-type(odd) {
+    background: #eee;
+    }
+    th {
+    background: #003300; 
+    color: white;
+    font-weight: bold;
+    }
+    td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+    }
+}

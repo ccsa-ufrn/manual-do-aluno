@@ -14,6 +14,8 @@ import { Mapa } from '../pages/Mapa/mapa';
 import { ComoChegar } from '../pages/ComoChegar/como-chegar';
 import { ParaSaber } from '../pages/ParaSaber/para-saber';
 import { ParaAjudar } from '../pages/ParaAjudar/para-ajudar';
+import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
+import { SitesEAplicativos } from '../pages/SitesEAplicativos/sites-e-aplicativos';
 
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { Network } from '@ionic-native/network';
@@ -41,7 +43,9 @@ const cloudSettings: CloudSettings = {
     Mapa,
     ComoChegar,
     ParaSaber,
-    ParaAjudar
+    ParaAjudar,
+    ParaConhecer,
+    SitesEAplicativos,
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -62,7 +66,9 @@ const cloudSettings: CloudSettings = {
     Mapa,
     ComoChegar,
     ParaSaber,
-    ParaAjudar
+    ParaAjudar,
+    ParaConhecer,
+    SitesEAplicativos
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, InAppBrowser, Network]
 })

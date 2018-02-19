@@ -5718,10 +5718,6 @@ textarea::-webkit-input-placeholder {
   padding-left: 2px;
 }
 
-textarea::-moz-placeholder {
-  padding-left: 2px;
-}
-
 textarea:-ms-input-placeholder {
   padding-left: 2px;
 }
@@ -22324,6 +22320,50 @@ mapa .map {
   background: url("../assets/image/map.png") no-repeat;
 }
 
+para-conhecer {
+  /* Zebra striping */
+}
+
+para-conhecer .green {
+  background: #009933;
+  color: white;
+}
+
+para-conhecer .green h4 {
+  color: white;
+}
+
+para-conhecer .green a {
+  color: white;
+}
+
+para-conhecer h4 {
+  color: #694187;
+}
+
+para-conhecer table {
+  width: 750px;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+para-conhecer tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+para-conhecer th {
+  background: #003300;
+  color: white;
+  font-weight: bold;
+}
+
+para-conhecer td, para-conhecer th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+
 para-saber .purple {
   background: #694187;
   color: white;
@@ -22343,6 +22383,23 @@ para-saber h4 {
 
 pos-grad table td, pos-grad table th {
   padding: 5px;
+}
+
+para-saber .purple {
+  background: #694187;
+  color: white;
+}
+
+para-saber .purple h4 {
+  color: white;
+}
+
+para-saber .purple a {
+  color: white;
+}
+
+para-saber h4 {
+  color: #694187;
 }
 
 ufrn .timeline {

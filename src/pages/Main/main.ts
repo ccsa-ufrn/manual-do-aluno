@@ -11,6 +11,8 @@ import { Mapa } from '../Mapa/mapa';
 import { ComoChegar } from '../ComoChegar/como-chegar';
 import { ParaSaber } from '../ParaSaber/para-saber';
 import { ParaAjudar } from '../ParaAjudar/para-ajudar';
+import { ParaConhecer } from '../ParaConhecer/para-conhecer';
+import { SitesEAplicativos } from '../SitesEAplicativos/sites-e-aplicativos';
 
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { Network } from '@ionic-native/network';
@@ -56,6 +58,12 @@ export class Main {
         break;
       case "para-ajudar":
         this.navCtrl.setRoot(ParaAjudar);
+        break;
+      case "para-conhecer":
+        this.navCtrl.setRoot(ParaConhecer);
+        break;
+      case "sites-e-aplicativos":
+        this.navCtrl.setRoot(SitesEAplicativos);
         break;
     }
   }

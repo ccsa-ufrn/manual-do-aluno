@@ -12,6 +12,8 @@ import { ConecteSe } from '../pages/ConecteSe/conectese';
 import { Mapa } from '../pages/Mapa/mapa';
 import { ComoChegar } from '../pages/ComoChegar/como-chegar';
 import { ParaSaber } from '../pages/ParaSaber/para-saber';
+import { ParaConhecer } from '../pages/ParaConhecer/para-conhecer';
+import { SitesEAplicativos } from '../pages/SitesEAplicativos/sites-e-aplicativos';
 
 
 @Component({
@@ -38,7 +40,9 @@ export class MyApp {
       { title: 'Contecte-se!', component: ConecteSe},
       { title: 'O que tem no CCSA?', component: Mapa},
       { title: 'Como Chegar?', component: ComoChegar},
-      { title: 'Para Você Saber!', component: ParaSaber}
+      { title: 'Para Você Saber!', component: ParaSaber},
+      { title: 'Para Você Conhecer!', component: ParaConhecer},
+      { title: 'Sites E Aplicativos Utéis!', component: SitesEAplicativos}
     ];
 
   }
